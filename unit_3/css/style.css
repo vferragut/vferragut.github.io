@@ -1,0 +1,28 @@
+body {
+	background: url("unit_3/images/field.jpg");
+	background-size: cover;
+	font-family: Impact, Charcoal, sans-serif;
+	color: #7E4723;
+	font-size: 20px;
+}
+
+
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	color: #27A350;
+	font-size: 30px;}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+ul {
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-color: white;
+}
+
+#slogan { 
+	font-style: italic
+}
