@@ -1,27 +1,37 @@
+
 body {
-	background: url("unit_3/images/field.jpg");
+	background: url("../images/field.jpg");
 	background-size: cover;
-	font-family: Impact, Charcoal, sans-serif;
-	color: #7E4723;
+	font-family: sans-serif;
+	color: white;
 	font-size: 20px;
+	text-align: left;
 }
 
 
 h1 {
 	font-family: Impact, Charcoal, sans-serif;
-	color: #27A350;
-	font-size: 30px;}
+	color: rgb(0, 255, 0);
+	font-size: 30px;
+	text-transform: uppercase;
+}
 
 h3 {
 	font-size: 24px;
 	font-weight: bold;
+	font-color: rgb(0, 102, 133)
 }
-
 
 ul {
 	font-family: "Lucida Sans Unicode", sans-serif;
-	font-color: white;
+	font-color: rgb(0, 102, 14);
 }
+
+.reasonswhy {
+	color: rgb(0, 102, 14);
+	font-style: italic
+}
+
 
 #slogan { 
 	font-style: italic
