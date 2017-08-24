@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
+h1 {
+	font-family:'Montserrat', sans-serif;
+	color: rgb(0, 255, 0);
+	text-align: center;
+	font-size: 50px;
+}
+
+input[type=text] {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 10px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    box-shadow: 1px 2px 2px #000;
+
+}
+
+#slogan { 
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+	background: url("../images/field.jpg");
+	background-size: cover;
+	font-family: 'Sanchez', serif;
+	color: white;
+	text-align: left;
+	margin-left: 1.25em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+p { 
+	font-family: 'Sanchez', serif;
+	text-align: left;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	font-color: rgb(0, 102, 133)
+	text-align: center;
+}
+
+ul {
+	font-family: 'Sanchez', serif;
+	font-color: rgb(0, 102, 14);
+}
+
+.reasonswhy {
+	color: rgb(0, 102, 14);
+	font-size: 26px;
+}
+
+.contact {
+	text-align: center;
+	color: #A52A2A;
+	font-size: 30px;
+}
+
