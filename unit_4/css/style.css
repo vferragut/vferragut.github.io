@@ -2,15 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Sanchez');
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 h1 {
 	font-family:'Montserrat', sans-serif;
 	color: rgb(0, 255, 0);
 	text-align: center;
 	font-size: 50px;
+	padding: 10px;
 }
 
 input[type=text] {
-    width: 130px;
+    width: 200px;
     border: 2px solid #ccc;
     border-radius: 15px;
     font-size: 10px;
@@ -19,6 +26,8 @@ input[type=text] {
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     box-shadow: 1px 2px 2px #000;
+    margin: 0 auto;
+    display: block;
 
 }
 
@@ -28,6 +37,9 @@ input[type=text] {
 
 h2 {
 	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+
 }
 
 body {
@@ -36,22 +48,25 @@ body {
 	font-family: 'Sanchez', serif;
 	color: white;
 	text-align: left;
-	margin-left: 1.25em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 
 p { 
 	font-family: 'Sanchez', serif;
 	text-align: left;
+	font-size: 20px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: bold;
-	font-color: rgb(0, 102, 133)
+	font-color: rgb(0, 102, 133);
 	text-align: center;
+	margin-bottom: .5em;
+	padding: .5em;
 }
 
 ul {
@@ -59,6 +74,10 @@ ul {
 	font-color: rgb(0, 102, 14);
 }
 
+h4 {
+	margin-bottom: .1em;
+
+}
 .reasonswhy {
 	color: rgb(0, 102, 14);
 	font-size: 26px;
@@ -67,6 +86,7 @@ ul {
 .contact {
 	text-align: center;
 	color: #A52A2A;
-	font-size: 30px;
+	font-size: 24px;
+	padding: .1em;
 }
 
