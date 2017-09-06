@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
+#column1_intro {
+    background-image: url("../images/farmer-tractor.jpg");
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+#column2_reasonswhy {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+#column3_socialmedia {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	font-family:'Montserrat', sans-serif;
+	color: rgb(0, 255, 0);
+	text-align: center;
+	font-size: 50px;
+	padding: 10px;
+}
+
+
+input[type=text] {
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 10px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    box-shadow: 1px 2px 2px #000;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+#slogan { 
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	color: white;
+
+}
+
+body {
+	background: url("../images/field.jpg");
+	background-size: cover;
+	font-family: 'Sanchez', serif;
+	color: white;
+	text-align: left;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+p { 
+	font-family: 'Sanchez', serif;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(0, 102, 133);
+	text-align: center;
+	margin-bottom: .5em;
+	padding: .5em;
+}
+
+ul {
+	font-family: 'Sanchez', serif;
+	font-color: rgb(0, 102, 14);
+}
+
+h4 {
+	margin-bottom: .1em;
+
+}
+.reasonswhy {
+	color: rgb(0, 102, 14);
+	font-size: 26px;
+}
+
+.contact {
+	text-align: center;
+	color: #A52A2A;
+	font-size: 24px;
+	padding: .5em;
+}
+
