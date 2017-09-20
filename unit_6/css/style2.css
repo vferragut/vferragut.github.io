@@ -10,11 +10,21 @@ header {
 nav {
     border: 1px black solid;
     padding: 20px;
+
 }
 
-a:hover {
+nav a {
+    position: relative;
+    top: -12px;
+}
+
+nav a:hover {
 	background: rgb(135,255,189);
 
+}
+
+.fa {
+    font-size: 50px;
 }
 
 /* Container holding the image and the text */
@@ -29,6 +39,7 @@ a:hover {
     padding: 20px;
     float: left;
     width: 33.33%;
+    height: 1000px;
 }
 
 #column2_reasonswhy {
@@ -36,6 +47,7 @@ a:hover {
     padding: 20px;
     float: left;
     width: 33.33%;
+    height: 1000px;
 }
 
 #column3_socialmedia {
@@ -44,6 +56,7 @@ a:hover {
     float: left;
     width: 33.33%;
     text-align: center;
+    height: 1000px;
 }
 
 .clearfix:after {
@@ -111,7 +124,7 @@ input[type=text] {
 
 .fa {
     padding: 20px;
-    font-size: 60px;
+    font-size: 60px !important;
     width: 30px;
     text-align: center;
     text-decoration: none;
