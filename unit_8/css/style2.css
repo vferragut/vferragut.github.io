@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
+body {
+    background-size: cover;
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header {
+    border: 1px black solid;
+    padding: 1.2em;
+    font-size: .75em;
+}
+
+nav {
+    border: 1px black solid;
+    padding: 1.2em;
+
+}
+
+nav a {
+    position: relative;
+    top: -12px;
+}
+
+nav a:hover {
+	background: rgb(135,255,189);
+
+}
+
+.fa {
+    font-size: 1.5px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#column1_intro {
+    border: 1px black solid;
+    padding: .80em;
+    float: left;
+    width: 33.33%;
+    height: 35em;
+}
+
+#column2_reasonswhy {
+    border: 1px black solid;
+    padding: .80em;
+    float: left;
+    width: 33.33%;
+    height: 35em;
+}
+
+#column3_socialmedia {
+    border: 1px black solid;
+    padding: .80em;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    height: 35em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+aside {
+    border: 1px black solid;
+    padding: .8em;
+}
+
+article {
+    border: 1px black solid;
+    padding: .80em;
+}
+
+footer {
+    border: 1px black solid;
+    padding: .80em;
+    text-align: center;
+    color: DarkGreen;
+}
+
+div {
+    border: 1px black solid;
+    padding: .80em;
+}
+
+h1 {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: center;
+	font-size: 60px;
+	padding: .3em;
+}
+
+
+input[type=text] {
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: .3em;
+    background-color: white;
+    background-position: .3em .3em; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    box-shadow: 1px 2px 2px #000;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 60px !important;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 75%;
+}
+
+#slogan { 
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	color: DarkGreen;
+
+}
+
+p { 
+	font-family: 'Sanchez', serif;
+	text-align: left;
+	font-size: 20px;
+	color: DarkGreen;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(0, 102, 133);
+	text-align: center;
+	margin-bottom: .5em;
+	padding: .5em;
+}
+
+ul {
+	font-family: 'Sanchez', serif;
+	font-size: 20px;
+	color: rgb(0, 102, 133);
+	padding: .5em;
+}
+
+h4 {
+	margin-bottom: .1em;
+
+}
+
+.contact {
+	text-align: center;
+	color: #A52A2A;
+	font-size: 24px;
+	padding: .5em;
+}
+
+@media only screen and (max-width: 850px) {
+   #column1_intro,#column2_reasonswhy, #column3_socialmedia {
+        float: none;
+        width: auto;
+        font-size: 20px;
+    }
+
+nav a {
+    display: block;
+    text-align: center; 
+    position: relative;
+    top: -12px;
+}
+
+img {
+    width: 320px;
+
+}
+
+h2 {
+    font-size: .5em;
+}
+
+h3 {
+     font-size: .5em;
+}
+
+p { font-size: .5em;
+}
+
+li {
+     font-size: .5em;
+}
+
+ul {
+     font-size: .5em;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+   #column1_intro,#column2_reasonswhy, #column3_socialmedia {
+        float: none;
+        width: auto;
+        font-size: 30px}
+
+h1 {
+    font-size: 1em;
+
+}
+
+
