@@ -150,7 +150,7 @@ input[type=text] {
 h2 {
 	text-align: center;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 35px;
 	color: DarkGreen;
 
 }
@@ -158,12 +158,12 @@ h2 {
 p { 
 	font-family: 'Sanchez', serif;
 	text-align: left;
-	font-size: 20px;
+	font-size: 25px;
 	color: DarkGreen;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	color: rgb(0, 102, 133);
 	text-align: center;
@@ -173,7 +173,7 @@ h3 {
 
 ul {
 	font-family: 'Sanchez', serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: rgb(0, 102, 133);
 	padding: .5em;
 }
@@ -190,7 +190,34 @@ h4 {
 	padding: .5em;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1030px) {
+   #column1_intro,#column2_reasonswhy, #column3_socialmedia {
+        font-size: .75em;
+    }
+
+img {
+    width: 320px;
+
+}
+
+h2 {
+    font-size: .90em;
+}
+
+h3 {
+     font-size: .90em;
+}
+
+p { 
+    font-size: .80em;
+}
+
+
+ul {
+     font-size: .80em;
+}
+
+@media only screen and (max-width: 800px) {
    #column1_intro,#column2_reasonswhy, #column3_socialmedia {
         float: none;
         width: auto;
@@ -210,33 +237,48 @@ img {
 }
 
 h2 {
-    font-size: .5em;
+    font-size: .80em;
 }
 
 h3 {
-     font-size: .5em;
+     font-size: .80em;
 }
 
-p { font-size: .5em;
-}
-
-li {
-     font-size: .5em;
+p { 
+    font-size: .70em;
 }
 
 ul {
-     font-size: .5em;
+     font-size: .70em;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
    #column1_intro,#column2_reasonswhy, #column3_socialmedia {
         float: none;
         width: auto;
         font-size: 30px}
 
 h1 {
-    font-size: 1em;
+    font-size: .7em;
 
 }
 
+h2 {
+    font-size: .7em;
+}
 
+h3 {
+     font-size: .7em;
+}
+
+p { 
+    font-size: .7em;
+}
+
+li {
+     font-size: .7em;
+}
+
+ul {
+     font-size: .7em;
+}
