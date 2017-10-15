@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
+body {
+    background-image: url('img/field.jpg') style="width:500px; height:500px;";
+
+}
+
+header {
+    border: none;
+    padding: .5em;
+    font-size: .75em;
+}
+
+h1 {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: left;
+	font-size: 70px;
+}
+
+p {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: left;
+	font-size: 25px;
+}
+
+
+

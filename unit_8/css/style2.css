@@ -222,63 +222,69 @@ ul {
         float: none;
         width: auto;
         font-size: 20px;
+        height: auto;
     }
 
-nav a {
-    display: block;
-    text-align: center; 
-    position: relative;
-    top: -12px;
-}
+    nav a {
+        display: block;
+        text-align: center; 
+        position: relative;
+        top: -12px;
+    }
 
-img {
-    width: 320px;
+    img {
+        width: 320px;
 
-}
+    }
 
-h2 {
-    font-size: .80em;
-}
+    h2 {
+        font-size: .80em;
+    }
 
-h3 {
-     font-size: .80em;
-}
+    h3 {
+         font-size: .80em;
+    }
 
-p { 
-    font-size: .70em;
-}
+    p { 
+        font-size: .70em;
+    }
 
-ul {
-     font-size: .70em;
+    ul {
+         font-size: .70em;
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
    #column1_intro,#column2_reasonswhy, #column3_socialmedia {
         float: none;
         width: auto;
-        font-size: 30px}
+        font-size: 30px;
+        height: auto;
+    }
 
-h1 {
+
+    h1 {
     font-size: .7em;
 
-}
+    }
 
-h2 {
+    h2 {
     font-size: .7em;
-}
+    }
 
-h3 {
-     font-size: .7em;
-}
+    h3 {
+         font-size: .7em;
+    }
 
-p { 
-    font-size: .7em;
-}
+    p { 
+        font-size: .7em;
+    }
 
-li {
-     font-size: .7em;
-}
+    li {
+         font-size: .7em;
+    }
 
-ul {
-     font-size: .7em;
+    ul {
+         font-size: .7em;
+    }
 }

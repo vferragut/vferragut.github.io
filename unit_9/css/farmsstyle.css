@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
+body {
+    background-image: url('img/field.jpg') style="width:500px; height:500px;";
+
+}
+
+header {
+    border: none;
+    padding: .5em;
+    font-size: .75em;
+}
+
+h1 {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: left;
+	font-size: 70px;
+}
+
+h2 {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: left;
+	font-size: 35px;
+}
+
+p {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: left;
+	font-size: 25px;
+}
+
+li {
+	font-family:'Montserrat', sans-serif;
+	color: #006400;
+	text-align: left;
+	font-size: 15px;
+}
+
+
+#signup_form {
+    border: 1px black solid;
+    padding: .80em;
+    float: left;
+    width: 30%;
+    height: 35em;
+}
+
+#pricing {
+    border: 1px black solid;
+    padding: .80em;
+    float: left;
+    width: 30%;
+    height: 35em;
+}
+
+#whosin {
+    border: 1px black solid;
+    padding: .80em;
+    float: left;
+    width: 30%;
+    text-align: left;
+    height: 35em;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 843px) {
+   #signup_form,#pricing, #whosin, #container {
+        float: none;
+        width: auto;
+        font-size: 30px;
+        height: auto;
+    }
+
+
+    h1 {
+    font-size: .7em;
+
+    }
+
+    h2 {
+    font-size: .8em;
+    }
+
+
+    p { 
+        font-size: .9em;
+    }
+
+    li {
+         font-size: .8em;
+    }
+
+    ul {
+         font-size: .8em;
+    }
+}
+
