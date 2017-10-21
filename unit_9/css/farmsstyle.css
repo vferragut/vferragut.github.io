@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Sanchez');
 
 body {
-    background-image: url('img/field.jpg') style="width:500px; height:500px;";
+    background-image: url("../images/field_medium.jpg");
+
 
 }
 
